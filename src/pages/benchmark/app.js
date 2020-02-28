@@ -75,7 +75,7 @@ class App extends Component {
 				</div>
 				<div className='section-md'>
 					{INFO.map(i => this.getGroup(i.title, i.desc, i.img))}
-					<div className='title-lg' style={{marginBottom: 30}}>{intl.get('BENCHMARK_TITLE5')}</div>
+					<div className='title-lg' style={{marginBottom: 30}}>{intl.get('BENCHMARK_TITLE6')}</div>
 					<div className='img-group'>
 						{IMG_URLS.map((arr, i) =>
 							<div className='img-row' key={i}> 

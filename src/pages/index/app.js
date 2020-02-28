@@ -18,9 +18,9 @@ const IMG_URLS = [
 ].map(i => i.map(sub => require(`src/assets/Index/investment/${sub}_.png`)));
 
 const IMG_LINK = [
-	['https://bitcoin.org', 'https://ethereum.org', ''],
+	['https://bitcoin.org', 'https://ethereum.org', 'https://eos.io'],
 	['https://iota.org', 'https://filecoin.io', 'http://idni.org'],
-	['https://eos.io', 'https://z.cash', ''],
+	['https://polkadot.network/', 'https://z.cash', '/investment'],
 ];
 
 const updataTime = (separator = '') =>{
